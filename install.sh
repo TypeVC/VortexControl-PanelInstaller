@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define colors
-GREEN="\e[32m"
+32m"\e[32m"
 YELLOW="\e[33m"
 CYAN="\e[36m"
 RED="\e[31m"
@@ -17,7 +17,7 @@ while true; do
     # Display Installer Name (improved header)
     echo -e "${GREEN}╔═══════════════════════════════════════════════╗${RESET}"
     echo -e "${GREEN}║ ${BOLD_GREEN}Puffer Panel Installer${RESET} ${GREEN}║${RESET}"
-    echo -e "${GREEN}║                 Version 3.0                   ║${RESET}"
+    echo -e "${GREEN}║                 Version 3.0 by TypeVC              ║${RESET}"
     echo -e "${GREEN}╚═══════════════════════════════════════════════╝${RESET}"
     echo ""  # Add a blank line for spacing
 
@@ -31,7 +31,7 @@ while true; do
     echo -e "${YELLOW}║    ${CYAN}   (Modded version required - see disclaimer)${RESET} ${YELLOW}║${RESET}"
     echo -e "${YELLOW}╟───────────────────────────────────────────────╢${RESET}"
     echo -e "${YELLOW}║ ${UNDERLINE}(Type 'q' or 'exit' to quit)${RESET}                  ${YELLOW}║${RESET}"
-    echo -e "${YELLOW}╚═══════════════════════════════════════════════╝${RESET}"
+    echo -e "${YELLOW}╚══════ELLOW════════════════════════════════════╝${RESET}"
     echo -n -e "${BOLD_GREEN}Enter your choice > ${RESET}"
     read -r choice
 
